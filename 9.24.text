@@ -1,0 +1,21 @@
+测验
+2019年9月24日08:44:07
+参与人:王飞宇
+
+1.    用id获取：getElementById()
+      用标签名获取：getElementsByTagName()
+      用选择器获取：querySelectorAll()   querySelector()
+      用类名获取：getElementsByClassName()
+      
+2.   用标签名获取，得到一个伪数组，让后用下表获取，下表为3的就是该div元素。
+
+3. querySelector()只能找到第一个元素  querySelectorAll()可以全部找到。
+
+4. var div = document.getElementsByTagName('div');
+   console.log(div[3]);
+
+
+5. var div = document.getElementsByTagName('div');
+   div.className = 'box blue'
+
+   
