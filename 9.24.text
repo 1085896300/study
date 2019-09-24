@@ -7,12 +7,14 @@
       用选择器获取：querySelectorAll()   querySelector()
       用类名获取：getElementsByClassName()
       
-2.   用标签名获取，得到一个伪数组，让后用下表获取，下表为3的就是该div元素。
+2. var div = document.getElementsByTagName('div');
+   console.log(div[3]);
 
 3. querySelector()只能找到第一个元素  querySelectorAll()可以全部找到。
 
-4. var div = document.getElementsByTagName('div');
-   console.log(div[3]);
+4.var div = document.getElementsByTagName('div');
+  div.innerHTML = '<a href="#">去百度</a>';
+
 
 
 5. var div = document.getElementsByTagName('div');
